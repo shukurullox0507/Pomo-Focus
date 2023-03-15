@@ -22,3 +22,24 @@ function handleStart() {
 		}, 1000);
 	}
 }
+function handleActionBtnClick(actionBtn) {
+	const currentTime = +actionBtn.getAttribute("time");
+	const isActive = actionBtn.classList.contains("active");
+
+	if (!isActive) {
+		const isYes = startBtn.classList.contains("active") ? confirm(`${actionBtn.innerText} 🧐 ? `) : true;
+
+		if (isYes) {
+			for (let btn of actionBtns) {
+				btn.classList.remove("active");
+			}
+
+			clearInterval(intervalID);
+			time = currentTime;
+			timer.innerText = timeConverter(time);
+			startBtn.classList.remove("active");
+			startBtn.innerText = `START`;
+			actionBtn.classList.add("active");
+		}
+	}
+}
