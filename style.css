@@ -10,3 +10,10 @@
 	text-decoration: none;
 	user-select: none;
 }
+
+body {
+	width: 100%;
+	height: 100vh;
+	background: #c15c5c;
+	font-family: "Poppins", sans-serif;
+}
