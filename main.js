@@ -30,13 +30,13 @@ function handleActionBtnClick(actionBtn) {
 		const isYes = startBtn.classList.contains("active") ? confirm(`${actionBtn.innerText} 🧐 ? `) : true;
 
 		if (isYes) {
-			for (let btn of actionBtns) {
+			for (let btn of actionBtn) {
 				btn.classList.remove("active");
 			}
 
 			clearInterval(intervalID);
 			time = currentTime;
-			timer.innerText = timeConverter(time);
+			timer.innerText = timeConvertor(time);
 			startBtn.classList.remove("active");
 			startBtn.innerText = `START`;
 			actionBtn.classList.add("active");
