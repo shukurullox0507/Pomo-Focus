@@ -65,8 +65,6 @@ body {
 	border-radius: 100px;
 	transform: translateY(-1px);
 }
-
-
 .main {
 	max-width: 480px;
 	width: 100%;
@@ -100,3 +98,4 @@ body {
 	user-select: none;
 	transition: all 0.03s;
 }
+
