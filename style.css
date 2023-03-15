@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@font-face {
+	font-family: "Arial Rounded MT W02 Bold";
+	src: url("./410f96d39c1cdb5c9aaf5fdca7ee7cd9.woff");
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	user-select: none;
+}
