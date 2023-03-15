@@ -64,8 +64,7 @@ body {
 	background-color: #fff;
 	border-radius: 100px;
 	transform: translateY(-1px);
-}
-.main {
+}.main {
 	max-width: 480px;
 	width: 100%;
 	background: green;
@@ -77,6 +76,7 @@ body {
 	border-radius: 5px;
 	margin-top: 40px;
 }
+
 @media (max-width: 400px) {
 	.main {
 		padding: 20px;
