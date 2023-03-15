@@ -49,6 +49,11 @@ body {
 	width: 20px;
 	height: 20px;
 }
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> c5dcba7eef49fddf4da9743eca41f2bd980815cf
 .nav-progress {
 	position: absolute;
 	bottom: 0;
@@ -97,5 +102,9 @@ body {
 	-moz-user-select: none;
 	user-select: none;
 	transition: all 0.03s;
-}
 
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> c5dcba7eef49fddf4da9743eca41f2bd980815cf
