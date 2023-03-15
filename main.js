@@ -43,3 +43,16 @@ function handleActionBtnClick(actionBtn) {
 		}
 	}
 }
+function init() {
+	startBtn.addEventListener("click", handleStart);
+
+	menu.addEventListener("click", (event) => {
+		const target = event.target;
+
+		if (target.classList.contains("main-menu-item")) {
+			handleActionBtnClick(target);
+		}
+	});
+}
+
+init();
